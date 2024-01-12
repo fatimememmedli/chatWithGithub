@@ -1,0 +1,119 @@
+/* styles/ChatPanel.module.css */
+
+.chatPanel {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.messageContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.messageLeft {
+  /* padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 8px; */
+  display: flex;
+  /* background-color: red; */
+  justify-content: flex-start;
+  /* width: max-content; */
+}
+.messageRight {
+  display: flex;
+  justify-content: flex-end;
+  /* width: max-content; */
+}
+
+.messageBox {
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  width: max-content;
+}
+.in {
+  background-color: rgba(90, 90, 177, 0.79);
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
+}
+.out {
+  background-color: rgba(29, 208, 148, 0.857);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.left {
+  background-color: #f2f2f2;
+  justify-content: flex-start;
+  /* align-items: center; */
+  width: max-content;
+}
+
+.right {
+  background-color: #4caf50;
+  justify-content: flex-end;
+  color: #fff;
+  width: max-content;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.messageContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0px 10px;
+}
+
+.messageUser {
+  font-size: 0.8em;
+  color: black;
+}
+
+.messageText {
+  margin: 0;
+}
+
+.sendMessageForm {
+  display: flex;
+}
+
+.input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px 0 0 4px;
+}
+
+.button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: 1px solid #4caf50;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+/* Diğer stiller buraya eklenebilir */
